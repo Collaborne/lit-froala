@@ -1,2 +1,2 @@
 # lit-froala
-Froala and LitElement
+Test to use the [Froala editor](https://froala.com/) in a LitElement application.

@@ -1,0 +1,36 @@
+{
+  "name": "lit-froala",
+  "version": "0.0.1",
+  "description": "Froala and LitElement",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json \"src/**/*.ts\"",
+    "test": "npm run lint && echo 'No tests yet'",
+    "prepublish": "npm run lint && npm run build",
+    "start-dev": "tsc --watch & polymer serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Collaborne/lit-froala.git"
+  },
+  "author": "Collaborne B.V.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Collaborne/lit-froala/issues"
+  },
+  "homepage": "https://github.com/Collaborne/lit-froala#readme",
+  "dependencies": {
+    "@polymer/polymer": "^3.4.1",
+    "froala-editor": "^3.1.1-2",
+    "lit-element": "^2.3.1"
+  },
+  "devDependencies": {
+    "@webcomponents/webcomponentsjs": "^2.4.3",
+    "polymer-cli": "^1.9.11",
+    "ts-node": "^8.10.2",
+    "tslint": "^6.1.2",
+    "tslint-config-collaborne": "^1.0.0",
+    "typescript": "^3.9.5"
+  }
+}
